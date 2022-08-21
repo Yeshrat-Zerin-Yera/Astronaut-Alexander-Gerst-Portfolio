@@ -87,6 +87,16 @@
     margin-right: 5%;
     box-shadow: 10px 10px 40px rgb(181, 188, 154);
     padding: 30px;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(178, 239, 132), rgb(213, 239, 108)) 0 100%;
+}
+
+#border-1 {
+    border-image: linear-gradient(rgb(177, 233, 134), rgb(57, 209, 23)) 0 100%;
+}
+
+#border-2 {
+    border-image: linear-gradient(rgb(228, 239, 132), rgb(244, 121, 5)) 0 100%;
 }
 
 .missions>h1 {
@@ -101,6 +111,12 @@
 
 .missions h3 {
     color: rgb(212, 191, 0);
+}
+
+/* Footer Section */
+footer p {
+    text-align: center;
+    color: rgb(58, 58, 58);
 }
 
 /* Media Query */
