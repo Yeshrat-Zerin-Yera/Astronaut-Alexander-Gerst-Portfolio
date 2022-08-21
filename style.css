@@ -68,12 +68,52 @@
     color: rgb(77, 81, 4);
 }
 
+/* Missions Section */
+.missions {
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.missions-row {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+.mission-col {
+    flex-basis: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px rgb(181, 188, 154);
+    padding: 30px;
+}
+
+.missions>h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.missions-row h1 {
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.missions h3 {
+    color: rgb(212, 191, 0);
+}
+
+/* Media Query */
 @media (max-width:1400px) {
 
     .welcome h1,
     .education h1 {
         font-size: 40px;
         margin-top: 15%;
+    }
+
+    .missions h1 {
+        font-size: 40px;
     }
 }
 
@@ -84,6 +124,10 @@
         font-size: 30px;
         margin-top: 15%;
     }
+
+    .missions h1 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -93,18 +137,26 @@
         font-size: 25px;
         margin-top: 10%;
     }
+
+    .missions h1 {
+        font-size: 25px;
+    }
+
+    .missions-row {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:900px) {
 
     .welcome h1,
     .education h1 {
-        font-size: 25px;
         margin-top: 5%;
     }
 }
 
 @media (max-width:700px) {
+
     .welcome {
         flex-direction: column;
     }
